@@ -1,0 +1,67 @@
+
+
+
+
+    @import "General.css";
+    
+
+    .selector                   {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+      
+                                grid-area: 2/1/10/3;
+                                border: 1px none red;
+                                display: flex;
+                                justify-content: space-evenly;
+                                flex-direction: column;
+                                background: transparent;
+                                    
+                                }
+
+
+        .selector_background    {
+
+                                display: flex;
+                                grid-area: 2/1/10/1;
+                                max-width: 100%;
+                                max-height: 100%;
+                                z-index: -1;
+                                flex-shrink: 1;
+
+                                }
+
+
+    .body_article               {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+        
+                                grid-area: 2/3/10/11;
+                                border: 0px none red;
+                                background-color: white;
+                                padding: 20px;
+                            
+                                }
+
+
+    .selector_item_box          {
+
+                                display: flex;
+                                border: 1px none black;
+                                height: 200px;
+                                justify-content: center;
+                                align-items: center;
+                                color: burlywood;
+
+                                }
+
+
+
+

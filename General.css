@@ -1,0 +1,173 @@
+
+
+    a { color:blue; } 
+    a:visited { text-decoration: none; color: blue; }
+    a:focus { text-decoration: none; color:yellow; }
+    a:hover {text-decoration: none; color: blue; }
+    a:active { text-decoration: underline; color:black; }
+
+
+    body                        {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+
+                                background-color: whitesmoke;
+                                color: black;
+                                z-index: -5;
+
+                                }
+
+
+    .background                 {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+
+                                grid-area: 1/1/10/11;
+                                border: 0px none greenyellow;
+                                z-index: -4;
+
+                                }
+
+
+    .page_container             {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: stretch;
+                                justify-items: stretch;
+                                justify-self: stretch;
+                                align-self: stretch;
+                                align-content: stretch;
+                                align-items: stretch;
+    
+                                }
+
+
+    .covid_container            {
+
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+    
+                                width: 100vw;
+                                border: 0px none gold;
+                                justify-content: stretch;
+                                align-self: stretch;
+                                background-color: crimson;
+
+                                }
+
+            .covid              {
+
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+
+                                grid-area: 1/1/1/11;
+                                border: 0px none red;
+                                display: flex;
+                                justify-content: stretch;
+    
+                                }
+
+        
+    .main_post_container        {
+
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+        
+                                display: grid;
+                                width: 100vw;
+                                height: 100vh;
+
+                                grid-template-rows: repeat(10, 10vh);       /* creates 2 rows tracks each 45px wide */
+                                grid-template-columns: repeat(10, 10vw);    /* creates 2 columns tracks each 25px long */
+                                grid-gap: 0px;                             /* defines the gutter to be 15px */
+
+                                justify-content: space-around;
+                                align-self: space-around;   
+
+                                }
+
+
+    .header                     {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+    
+                                grid-area: 1/1/2/11;
+                                border: 0px none red;
+                                display: flex;
+                                justify-content: space-evenly;
+                                
+                                }
+
+                                
+    .footer                     {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:0; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+            
+                                grid-area: 10/1/11/11;
+                                border: 0px none red;
+                                display: flex;
+                                justify-content: space-evenly;
+                                
+                                }
+
+
+
+
+    .header_item_box            {
+
+                                display: flex;
+                                border: 1px none black;
+                                width: 200px;
+                                justify-content: center;
+                                align-items: center;
+    
+                                }
+
+
+    .footer_item_box            {
+
+                                display: flex;
+                                border: 1px none black;
+                                width: 200px;
+                                justify-content: center;
+                                align-items: center;
+                                color: gold;
+                                        
+                                }
+    
+    

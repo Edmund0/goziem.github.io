@@ -1,0 +1,108 @@
+
+
+ @import "General.css";
+
+
+    .postings                   {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding-left:10vw;
+                                padding-right:10vw; 
+                                padding-top: 10vh;
+                                padding-bottom: 10vh;
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+
+                                grid-area: 2/1/10/11;
+                                border: 0px none red;
+                                display: flex;
+                                justify-content: space-around;
+                                flex-direction: row;
+                                background: transparent;
+        
+                                }
+
+    .postings_background        {
+
+                                display: flex;
+                                grid-area: 2/1/10/11;
+                                width: 100%;
+                                height: 100%;
+                                z-index: -2;
+                                flex-grow: 1;
+
+                                }
+
+
+    .blogpost                   {
+
+                                /* Resetting the Margins and Paddings */
+                                margin:0; 
+                                padding:5px; 
+                                border:none;
+                                /* Resetting the Margins and Paddings */
+
+                                background-color: silver;
+
+                                }
+
+    .blogpost_extend1           {
+
+                                width: 40vw;
+                                height: 70vh;
+        
+                                }
+
+    .blogpost_extend2           {
+
+                                width: 40vw;
+                                height: 70vh;
+
+                                }
+
+    .blogpost_extend3           {
+
+                                width: 40vw;
+                                height: 70vh;
+
+                                }
+
+
+
+
+
+
+
+
+
+#body_article               {
+
+    /* Resetting the Margins and Paddings */
+    margin:0; 
+    padding:0; 
+    border:none;
+    /* Resetting the Margins and Paddings */
+
+    grid-area: 2/3/10/11;
+    border: 0px none red;
+    background-color: white;
+    padding: 20px;
+
+    }
+
+
+.selector_item_box          {
+
+    display: flex;
+    border: 1px none black;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+
+    }
+
+
+
+
